@@ -295,8 +295,8 @@ cv2.imshow('Original Image', img)
 pixel_value = img[100, 100]
 print(f"Pixel value at (100, 100): {pixel_value}")
 
-# 2. Modify the color of the pixel at (199, 199) to white
-img[199, 199] = [255, 255, 255]  # Setting the pixel value to white (BGR)
+# 2. Modify the color of the pixel at (200, 200) to white
+img[200, 200] = [255, 255, 255]  # Setting the pixel value to white (BGR)
 
 # Display the modified image
 cv2.imshow('Modified Image', img)
@@ -310,11 +310,8 @@ cv2.destroyAllWindows()
 <br>
 
 ### Output:
-![Screenshot 2024-09-10 113015](https://github.com/user-attachments/assets/27f2d262-cbcb-47d6-a8e2-f522f30035c6)
+<img width="646" alt="Screenshot 2024-11-24 at 5 26 44 PM" src="https://github.com/user-attachments/assets/bdfaf8df-9782-4cf9-8862-6524cc95a683">
 
-
-
-![Screenshot 2024-09-10 113034](https://github.com/user-attachments/assets/2e0bbc1e-a750-4b6d-9762-82760a4f0249)
 
 
 
